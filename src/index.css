@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Al nombrar la variable con --color-, Tailwind crea automáticamente 
+     las clases bg-dark-main, text-dark-main, etc. */
+  --color-dark-main: #1a1a1a;
+  --color-dark-nav: #0a0a0a;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark-main);
+    color: var(--color-gray-100);
+    margin: 0;
+    padding: 0;
+  }
+}
