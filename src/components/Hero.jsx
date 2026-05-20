@@ -19,7 +19,6 @@ export default function Hero() {
         Desarrollador Web
       </p>
 
-      {/* Contenedor de botones ( gap-3 ) */}
       <div className="flex flex-wrap justify-center items-center gap-3">
         <a
           href="https://github.com/Nkiex"

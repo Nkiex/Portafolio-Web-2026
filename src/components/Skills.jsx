@@ -1,4 +1,3 @@
-// Mezclamos colecciones: 'fa' para los clásicos y 'si' para los frameworks específicos
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiTailwindcss, SiExpress, SiMysql, SiMongodb } from 'react-icons/si';
 

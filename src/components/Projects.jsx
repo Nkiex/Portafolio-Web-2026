@@ -4,27 +4,30 @@ import { FiExternalLink } from 'react-icons/fi';
 const misProyectos = [
   {
     id: 1,
-    titulo: "E-Commerce Deportivo",
-    descripcion: "Plataforma de ventas con carrito de compras y pasarela de pagos.",
-    tecnologias: ["React", "Tailwind", "Node.js"],
-    repoUrl: "https://github.com/Nkiex",
-    demoUrl: "#"
+    titulo: "Creador de CVs gratis",
+    descripcion: "Plataforma para crear cvs gratis y sin registrarse.",
+    tecnologias: ["Astro", "Tailwind", "JavaScript", "TypeScript"],
+    repoUrl: "https://github.com/Nkiex/cv-ats-templates",
+    demoUrl: "https://cvatsfacil.com",
+    image: "/cv-ats-facil-imagen.png" 
   },
   {
     id: 2,
-    titulo: "Dashboard Financiero",
-    descripcion: "Panel de control para visualización de gastos e ingresos en tiempo real.",
-    tecnologias: ["JavaScript", "CSS", "Chart.js"],
-    repoUrl: "https://github.com/Nkiex",
-    demoUrl: "#"
+    titulo: "Generador de paleta de colores",
+    descripcion: "Página para generar paleta de colores de forma aleatoria.",
+    tecnologias: ["HTML", "CSS", "JavaScript"],
+    repoUrl: "https://github.com/Nkiex/GeneradorPaletasDeColores",
+    demoUrl: "https://generadorpaletasdecolores.pages.dev",
+    image: "/generador-paleta-colores-imagen.png"
   },
   {
     id: 3,
-    titulo: "App de Gestión de Tareas",
-    descripcion: "Aplicación web para organizar proyectos con sistema de arrastrar y soltar.",
-    tecnologias: ["React", "Firebase", "Tailwind"],
-    repoUrl: "https://github.com/Nkiex",
-    demoUrl: "#"
+    titulo: "Generador de contraseñas seguras",
+    descripcion: "Aplicación web para generar contraseñas seguras de forma sencilla.",
+    tecnologias: ["HTML", "CSS", "JavaScript"],
+    repoUrl: "https://github.com/Nkiex/GeneradorContrase-as",
+    demoUrl: "https://generadorcontrase-as.pages.dev/",
+    image: "/generador-contraseñas-imagen.png"
   }
 ];
 
@@ -42,9 +45,18 @@ export default function Projects() {
             key={proyecto.id} 
             className="group rounded-2xl border border-white/5 bg-white/[0.02] p-5 hover:bg-white/[0.04] hover:border-white/10 transition-all duration-300"
           >
-            {/* Espacio reservado para la imagen */}
-            <div className="aspect-video w-full rounded-xl bg-[#111] mb-5 flex items-center justify-center border border-white/5">
-              <span className="text-gray-700 text-xs tracking-widest uppercase">Imagen / Preview</span>
+            {/* Contenedor de la imagen. Añadimos overflow-hidden para que la imagen respete los bordes redondeados */}
+            <div className="aspect-video w-full rounded-xl bg-[#111] mb-5 flex items-center justify-center border border-white/5 overflow-hidden">
+              {/* Lógica condicional: Si hay imagen, la mostramos. Si no, mostramos el texto */}
+              {proyecto.image ? (
+                <img 
+                  src={proyecto.image} 
+                  alt={`Vista previa de ${proyecto.titulo}`} 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              ) : (
+                <span className="text-gray-700 text-xs tracking-widest uppercase">Imagen / Preview</span>
+              )}
             </div>
 
             <h3 className="text-lg font-semibold text-gray-200 mb-2">
