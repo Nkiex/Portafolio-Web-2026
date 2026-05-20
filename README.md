@@ -1,4 +1,4 @@
-# 🚀 Portafolio Personal - Ignacio Aguirre
+#Portafolio Personal - Ignacio Aguirre
 
 Un portafolio web minimalista y profesional diseñado para destacar proyectos, habilidades técnicas y experiencia en el desarrollo web. Construido con un enfoque en el rendimiento, la accesibilidad y un diseño UI moderno (estilo oscuro con toques de glassmorphism).
 
@@ -6,7 +6,7 @@ Un portafolio web minimalista y profesional diseñado para destacar proyectos, h
 
 ---
 
-## ✨ Características
+##Características
 
 - **Diseño Minimalista & Dark Mode:** UI limpia enfocada en el contenido, evitando el ruido visual.
 - **Totalmente Responsivo:** Adaptable a cualquier tamaño de pantalla (Mobile First).
@@ -16,7 +16,7 @@ Un portafolio web minimalista y profesional diseñado para destacar proyectos, h
 
 ---
 
-## 🛠️ Stack Tecnológico
+##Stack Tecnológico
 
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
@@ -27,7 +27,7 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 ---
 
-## ⚙️ Instalación y Uso Local
+##Instalación y Uso Local
 
 Si deseas clonar este repositorio y correrlo en tu máquina local, sigue estos pasos:
 
@@ -39,7 +39,7 @@ Si deseas clonar este repositorio y correrlo en tu máquina local, sigue estos p
    **Inicia el servidor de desarrollo:**
    ```bash
    npm run dev
-
+```
 ├── public/                 # Archivos estáticos (CV, Imágenes)
 ├── src/
 │   ├── components/         # Componentes modulares de React
@@ -51,4 +51,4 @@ Si deseas clonar este repositorio y correrlo en tu máquina local, sigue estos p
 │   ├── App.jsx             # Ensamblaje principal de la SPA
 │   ├── main.jsx            # Punto de entrada de React
 │   └── index.css           # Configuración base de Tailwind v4
-└── package.json            # Dependencias y scripts
+└── package.json            # Dependencias y scripts```
