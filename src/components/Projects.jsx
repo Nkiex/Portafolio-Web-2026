@@ -18,7 +18,7 @@ const misProyectos = [
     tecnologias: ["HTML", "CSS", "JavaScript"],
     repoUrl: "https://github.com/Nkiex/GeneradorPaletasDeColores",
     demoUrl: "https://generadorpaletasdecolores.pages.dev",
-    image: "/generador-paleta-colores-imagen.png"
+    image: "/generador-paleta-colores-imagen.png",
   },
   {
     id: 3,
