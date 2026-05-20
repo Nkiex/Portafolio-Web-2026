@@ -1,16 +1,54 @@
-# React + Vite
+# 🚀 Portafolio Personal - Ignacio Aguirre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un portafolio web minimalista y profesional diseñado para destacar proyectos, habilidades técnicas y experiencia en el desarrollo web. Construido con un enfoque en el rendimiento, la accesibilidad y un diseño UI moderno (estilo oscuro con toques de glassmorphism).
 
-Currently, two official plugins are available:
+🔗 **https://portafolio-web-2026.pages.dev/*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Diseño Minimalista & Dark Mode:** UI limpia enfocada en el contenido, evitando el ruido visual.
+- **Totalmente Responsivo:** Adaptable a cualquier tamaño de pantalla (Mobile First).
+- **Navegación Sticky con Glassmorphism:** Barra superior con efecto de cristal esmerilado.
+- **Sección de Proyectos Dinámica:** Sistema de tarjetas (cards) optimizadas con efectos hover y renderizado condicional de imágenes.
+- **Optimización de Rendimiento:** Construido con Vite para tiempos de carga ultrarrápidos y recarga en caliente.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Stack Tecnológico
+
+Este proyecto fue desarrollado utilizando las siguientes tecnologías:
+
+- **Frontend:** [React](https://reactjs.org/)
+- **Herramienta de Construcción:** [Vite](https://vitejs.dev/)
+- **Estilos:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Iconos:** [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome & Simple Icons)
+
+---
+
+## ⚙️ Instalación y Uso Local
+
+Si deseas clonar este repositorio y correrlo en tu máquina local, sigue estos pasos:
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/Nkiex/tu-repo-portafolio.git](https://github.com/Nkiex/tu-repo-portafolio.git)
+   cd tu-repo-portafolio
+   npm install
+   **Inicia el servidor de desarrollo:**
+   ```bash
+   npm run dev
+
+├── public/                 # Archivos estáticos (CV, Imágenes)
+├── src/
+│   ├── components/         # Componentes modulares de React
+│   │   ├── Navbar.jsx      # Navegación superior
+│   │   ├── Hero.jsx        # Sección de inicio y presentación
+│   │   ├── Projects.jsx    # Cuadrícula de proyectos destacados
+│   │   ├── Skills.jsx      # Stack tecnológico
+│   │   └── Contact.jsx     # Pie de página y contacto
+│   ├── App.jsx             # Ensamblaje principal de la SPA
+│   ├── main.jsx            # Punto de entrada de React
+│   └── index.css           # Configuración base de Tailwind v4
+└── package.json            # Dependencias y scripts
