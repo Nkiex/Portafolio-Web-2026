@@ -25,20 +25,6 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 - **Estilos:** [Tailwind CSS v4](https://tailwindcss.com/)
 - **Iconos:** [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome & Simple Icons)
 
----
-
-##Instalación y Uso Local
-
-Si deseas clonar este repositorio y correrlo en tu máquina local, sigue estos pasos:
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone [https://github.com/Nkiex/tu-repo-portafolio.git](https://github.com/Nkiex/tu-repo-portafolio.git)
-   cd tu-repo-portafolio
-   npm install
-   **Inicia el servidor de desarrollo:**
-   ```bash
-   npm run dev
 ```
 ├── public/                 # Archivos estáticos (CV, Imágenes)
 ├── src/
